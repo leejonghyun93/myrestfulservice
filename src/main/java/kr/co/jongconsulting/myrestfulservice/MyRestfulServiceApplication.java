@@ -8,12 +8,12 @@ import org.springframework.context.ApplicationContext;
 public class MyRestfulServiceApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext ac = SpringApplication.run(MyRestfulServiceApplication.class, args);
+	 SpringApplication.run(MyRestfulServiceApplication.class, args);
 
-		String[] allBeanNams = ac.getBeanDefinitionNames();
-		for (String beanName : allBeanNams){
-			System.out.println(beanName);
-		}
+//		String[] allBeanNams = ac.getBeanDefinitionNames();
+//		for (String beanName : allBeanNams){
+//			System.out.println(beanName);
+//		}
 	}
 
 }
