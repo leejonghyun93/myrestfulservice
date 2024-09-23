@@ -7,7 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class HelloWorldBean {
 
-    private String massage;
+    private String message;
 
 //    public HelloWorldBean(String message){
 //        this.massage = message;
