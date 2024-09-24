@@ -7,4 +7,18 @@ logging:
 
 spring:
   message:
-    basename:messages
+    basename: messages
+#  security:
+#    user:
+#      name: username
+#      password: passw0rd
+
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
